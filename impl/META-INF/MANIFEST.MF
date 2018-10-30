@@ -1,0 +1,22 @@
+Manifest-Version: 1.0
+Bnd-LastModified: 1540862388630
+Build-Jdk: 1.8.0_181
+Built-By: dtj
+Bundle-Description: OpenDaylight is leading the transformation to Open S
+ oftware Defined Networking (SDN). For more information, please see http
+ s://www.opendaylight.org
+Bundle-DocURL: https://www.opendaylight.org
+Bundle-License: https://www.eclipse.org/legal/epl-v10.html
+Bundle-ManifestVersion: 2
+Bundle-Name: ODL :: org.opendaylight.hello :: hello-impl
+Bundle-SymbolicName: org.opendaylight.hello.impl
+Bundle-Vendor: OpenDaylight
+Bundle-Version: 0.1.0.SNAPSHOT
+Created-By: Apache Maven Bundle Plugin
+Import-Package: org.opendaylight.yang.gen.v1.urn.opendaylight.params.xml
+ .ns.yang.ping.rev170826;version="[0.1,1)",org.opendaylight.yang.gen.v1.
+ urn.opendaylight.params.xml.ns.yang.ping.rev170826.ping.hosts.input;ver
+ sion="[0.1,1)",org.opendaylight.yang.gen.v1.urn.opendaylight.params.xml
+ .ns.yang.ping.rev170826.ping.hosts.output;version="[0.1,1)"
+Require-Capability: osgi.ee;filter:="(&(osgi.ee=JavaSE)(version=1.8))"
+Tool: Bnd-3.0.0.201509101326

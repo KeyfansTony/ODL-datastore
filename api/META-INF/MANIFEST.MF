@@ -1,0 +1,47 @@
+Manifest-Version: 1.0
+Bnd-LastModified: 1540863210717
+Build-Jdk: 1.8.0_181
+Built-By: dtj
+Bundle-Description: OpenDaylight is leading the transformation to Open S
+ oftware Defined Networking (SDN). For more information, please see http
+ s://www.opendaylight.org
+Bundle-DocURL: https://www.opendaylight.org
+Bundle-License: https://www.eclipse.org/legal/epl-v10.html
+Bundle-ManifestVersion: 2
+Bundle-Name: ODL :: org.opendaylight.hello :: hello-api
+Bundle-SymbolicName: org.opendaylight.hello.api
+Bundle-Vendor: OpenDaylight
+Bundle-Version: 0.1.0.SNAPSHOT
+Created-By: Apache Maven Bundle Plugin
+Export-Package: org.opendaylight.yang.gen.v1.urn.opendaylight.params.xml
+ .ns.yang.hello.rev150105;uses:="org.opendaylight.yangtools.concepts,org
+ .opendaylight.yangtools.yang.binding,org.opendaylight.yangtools.yang.co
+ mmon";version="0.1.0",org.opendaylight.yang.gen.v1.urn.opendaylight.par
+ ams.xml.ns.yang.ping.rev170826;uses:="org.opendaylight.yang.gen.v1.urn.
+ opendaylight.params.xml.ns.yang.ping.rev170826.ping.hosts.input,org.ope
+ ndaylight.yang.gen.v1.urn.opendaylight.params.xml.ns.yang.ping.rev17082
+ 6.ping.hosts.output,org.opendaylight.yangtools.concepts,org.opendayligh
+ t.yangtools.yang.binding,org.opendaylight.yangtools.yang.common";versio
+ n="0.1.0",org.opendaylight.yang.gen.v1.urn.opendaylight.params.xml.ns.y
+ ang.ping.rev170826.ping.hosts.input;uses:="org.opendaylight.yang.gen.v1
+ .urn.ietf.params.xml.ns.yang.ietf.inet.types.rev130715,org.opendaylight
+ .yang.gen.v1.urn.opendaylight.params.xml.ns.yang.ping.rev170826,org.ope
+ ndaylight.yangtools.concepts,org.opendaylight.yangtools.yang.binding,or
+ g.opendaylight.yangtools.yang.common";version="0.1.0",org.opendaylight.
+ yang.gen.v1.urn.opendaylight.params.xml.ns.yang.ping.rev170826.ping.hos
+ ts.output;uses:="org.opendaylight.yang.gen.v1.urn.ietf.params.xml.ns.ya
+ ng.ietf.inet.types.rev130715,org.opendaylight.yang.gen.v1.urn.opendayli
+ ght.params.xml.ns.yang.ping.rev170826,org.opendaylight.yangtools.concep
+ ts,org.opendaylight.yangtools.yang.binding,org.opendaylight.yangtools.y
+ ang.common";version="0.1.0"
+Import-Package: com.google.common.collect;version="[18.0,19)",org.openda
+ ylight.yang.gen.v1.urn.ietf.params.xml.ns.yang.ietf.inet.types.rev13071
+ 5;version="[1.2,2)",org.opendaylight.yang.gen.v1.urn.opendaylight.param
+ s.xml.ns.yang.ping.rev170826,org.opendaylight.yang.gen.v1.urn.opendayli
+ ght.params.xml.ns.yang.ping.rev170826.ping.hosts.input,org.opendaylight
+ .yang.gen.v1.urn.opendaylight.params.xml.ns.yang.ping.rev170826.ping.ho
+ sts.output,org.opendaylight.yangtools.concepts;version="[1.1,2)",org.op
+ endaylight.yangtools.yang.binding;version="[0.10,1)",org.opendaylight.y
+ angtools.yang.common;version="[1.1,2)"
+Require-Capability: osgi.ee;filter:="(&(osgi.ee=JavaSE)(version=1.8))"
+Tool: Bnd-3.0.0.201509101326
