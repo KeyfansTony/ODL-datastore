@@ -26,8 +26,11 @@ public class HelloProvider implements HelloService {
 
     private final DataBroker dataBroker;
 
-    public HelloProvider(final DataBroker dataBroker) {
+    private final SalFlowService flowService;
+
+    public HelloProvider(final DataBroker dataBroker, SalFlowService flowService) {
         this.dataBroker = dataBroker;
+        this.flowService = flowService;
     }
     /**
      * Method called when the blueprint container is created.
