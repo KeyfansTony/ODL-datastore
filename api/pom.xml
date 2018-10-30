@@ -21,7 +21,8 @@ and is available at http://www.eclipse.org/legal/epl-v10.html
           <instructions>
             <Export-Package>
               org.opendaylight.yang.gen.v1.urn.opendaylight.params.xml.ns.yang.hello.rev150105.*,
-              org.opendaylight.yang.gen.v1.urn.opendaylight.params.xml.ns.yang.ping.rev170826.*
+              org.opendaylight.yang.gen.v1.urn.opendaylight.params.xml.ns.yang.ping.rev170826.*,
+              org.opendaylight.yang.gen.v1.urn.opendaylight.params.xml.ns.yang.datastoreconfig.rev150105.*
             </Export-Package>
           </instructions>
           <manifestLocation>${project.basedir}/META-INF</manifestLocation>

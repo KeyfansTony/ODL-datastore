@@ -17,6 +17,6 @@ Import-Package: org.opendaylight.yang.gen.v1.urn.opendaylight.params.xml
  .ns.yang.ping.rev170826;version="[0.1,1)",org.opendaylight.yang.gen.v1.
  urn.opendaylight.params.xml.ns.yang.ping.rev170826.ping.hosts.input;ver
  sion="[0.1,1)",org.opendaylight.yang.gen.v1.urn.opendaylight.params.xml
- .ns.yang.ping.rev170826.ping.hosts.output;version="[0.1,1)"
+ .ns.yang.ping.rev170826.ping.hosts.output;version="[0.1,1)",org.opendaylight.yang.gen.v1.urn.opendaylight.flow.service.rev130819;version="[0.4.0,1.0.0)"
 Require-Capability: osgi.ee;filter:="(&(osgi.ee=JavaSE)(version=1.8))"
 Tool: Bnd-3.0.0.201509101326

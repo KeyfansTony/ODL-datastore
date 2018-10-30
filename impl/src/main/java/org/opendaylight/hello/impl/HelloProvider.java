@@ -8,7 +8,6 @@
 package org.opendaylight.hello.impl;
 
 import org.opendaylight.controller.md.sal.binding.api.DataBroker;
-import org.opendaylight.yang.gen.v1.urn.opendaylight.flow.service.rev130819.SalFlowService;
 import org.opendaylight.yang.gen.v1.urn.opendaylight.params.xml.ns.yang.hello.rev150105.HelloService;
 import org.opendaylight.yang.gen.v1.urn.opendaylight.params.xml.ns.yang.hello.rev150105.HelloWorldInput;
 import org.opendaylight.yang.gen.v1.urn.opendaylight.params.xml.ns.yang.hello.rev150105.HelloWorldOutput;
@@ -26,11 +25,8 @@ public class HelloProvider implements HelloService {
 
     private final DataBroker dataBroker;
 
-    private final SalFlowService flowService;
-
-    public HelloProvider(final DataBroker dataBroker, SalFlowService flowService) {
+    public HelloProvider(final DataBroker dataBroker) {
         this.dataBroker = dataBroker;
-        this.flowService = flowService;
     }
     /**
      * Method called when the blueprint container is created.
